@@ -1,6 +1,6 @@
-# Sample Hardhat Project
+# Simple Voting Project
 
-This project demonstrates a simple voting contract app. It comes with a sample contract, a test for that contract.
+This project demonstrates a simple voting contract app. It comes with a simple vote contract, and a test for that contract.
 
 To compile the contract run the command:
 
@@ -13,5 +13,3 @@ To run the tests, run the command:
 ```shell
 npx hardhat test
 ```
-
-`
