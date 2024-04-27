@@ -1,13 +1,17 @@
 # Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project demonstrates a simple voting contract app. It comes with a sample contract, a test for that contract.
 
-Try running some of the following tasks:
+To compile the contract run the command:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
+npx hardhat compile
 ```
+
+To run the tests, run the command:
+
+```shell
+npx hardhat test
+```
+
+`
